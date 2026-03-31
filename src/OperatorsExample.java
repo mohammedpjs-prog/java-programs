@@ -1,10 +1,10 @@
-import org.w3c.dom.ls.LSOutput;
 
 public class OperatorsExample {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        int a = 10;  // operand
+        int b = 5;   // operand
 
-    int a = 10;
-    int b = 20;
+
 
 
     int sum = a + b;
