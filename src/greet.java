@@ -1,4 +1,5 @@
-     public class Greet {
+public class greet {
+    public class Main {
         // Method to print a message
         static void greet() {
             System.out.println("Hello, welcome to Java!");
@@ -9,3 +10,4 @@
             greet(); // you can call it again
         }
     }
+}
