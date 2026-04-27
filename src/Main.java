@@ -1,19 +1,10 @@
-
-    public class Main {
-
-        static void greet() {
-            System.out.println("Welcome!");
-        }
-
-        static int add(int x, int y) {
-            return x + y;
-        }
-
-        public static void main(String[] args) {
-            greet();  // calling method
-
-            int sum = add(10, 20);
-            System.out.println("Sum: " + sum);
-
-        }
+public class Main {
+    public static void main(String[] args){
+        student st = new student();
+        st.getage();
+        System.out.println(st.getage());
+        st.setage(21);
+        System.out.println(st.getage());
+        System.out.println(st.getage());
     }
+}
