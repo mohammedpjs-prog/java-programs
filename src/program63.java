@@ -12,5 +12,6 @@ public class program63 {
         System.out.println(" Country : "+ country);
         sc.close();
 
+
     }
 }
