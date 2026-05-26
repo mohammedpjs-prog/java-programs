@@ -7,7 +7,7 @@ public class FindFIrstExample {
         List<String>names =
                 Arrays.asList("ayan","rehan","rahil");
         boolean result =
-                names.stream()
+                names.stream().parallel()
                         .anyMatch(n -> n.equals("Rehan"));
         System.out.println(result);
     }
