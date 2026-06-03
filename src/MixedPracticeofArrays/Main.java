@@ -6,10 +6,11 @@ public class Main {
                 new HashMap<>();
         map.put(1,"java");
         map.put(11,"python");
-        map.put(1,"spring");
+        map.put(3,"spring");
         System.out.println(map);
         System.out.println(map.get(1));
         System.out.println(map.get(11));
+        System.out.println(map.get(3));
 
     }
 }
