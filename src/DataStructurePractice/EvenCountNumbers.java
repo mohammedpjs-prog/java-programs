@@ -9,7 +9,7 @@ public class EvenCountNumbers {
         int count = 0;
         for (int num : arr){
             if (num % 2 == 0)
-            count++;
+                count++;
         }
         System.out.println(" Even count " +count);
     }
